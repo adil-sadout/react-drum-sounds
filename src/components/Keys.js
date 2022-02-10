@@ -8,7 +8,7 @@ export default function Keys(props) {
     return (
       <ul>
         {
-          drumSounds.map((soundObj, index) => <Key key={soundObj.id} soundObj={soundObj} />)
+          drumSounds.map((soundObj, index) => <Key key={index} soundObj={soundObj} />)
         }
       </ul>
     );

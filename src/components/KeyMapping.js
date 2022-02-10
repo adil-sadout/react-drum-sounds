@@ -1,10 +1,10 @@
-import Keys from "./Keys.js";
+//import Keys from "./Keys.js";
 
 export default function KeyMapping(props) {
-  const { drumSounds } = props;
+
     return (
       <div className="App">
-        Hello 
+        Click to hear the sound 
       </div>
     );
   }

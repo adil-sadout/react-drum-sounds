@@ -1,6 +1,5 @@
 import KeyMapping from "./components/KeyMapping.js";
 import Keys from "./components/Keys.js";
-import {useEffect, useState} from "react";
 import Drum from "./drumSounds/Drum.mp3";
 import Hat from "./drumSounds/Hat.mp3";
 import Snare from "./drumSounds/Snare.mp3";
